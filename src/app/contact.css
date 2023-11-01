@@ -44,7 +44,7 @@
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #c66e4e;
+    background-color: #028fcc;
 }
 
 .field{
@@ -52,7 +52,7 @@
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
 	background-color: transparent;
-    border-bottom: 2px solid #c66e4e;
+    border-bottom: 2px solid #028fcc;
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
@@ -70,7 +70,7 @@ textarea{
 .btn{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #c66e4e;
+	background-color: #028fcc;
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
@@ -80,7 +80,7 @@ textarea{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: #028fcc;
 }
 
 .field:focus{
