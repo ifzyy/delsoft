@@ -57,7 +57,8 @@ const Main = () => {
       </div>
 
       <div id="portfolio">
-        <h2 className="text-center text-[40px] ">Our Clients</h2>
+        <h2 className="text-center text-[40px] dash ">Our Clients</h2>
+        <p className="text-center ">Below are some of our clients</p>
         <Client />
       </div>
 
