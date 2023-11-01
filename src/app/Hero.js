@@ -1,5 +1,6 @@
 "use client"
 import heroBackground from "./images/hero.jpg";
+import Link from "next/link";
 import { useEffect } from "react";
 import Nav from "./Nav";
 import Image from "next/image";
@@ -15,11 +16,11 @@ const Hero = () => {
       id="home"
     >
       <div className="overlay">
-          <div className="pl-[20px] lg:pl-[200px] pt-[170px]">
-          <h1 data-aos= "zoom-in-left" className="text-[white] text-[35px] lg:text-[60px] lg:w-[550px] font-bold text-left">
+          <div className="pl-[20px] md:pl-[50px] lg:pl-[200px] pt-[170px]">
+          <h1 data-aos= "zoom-in-left" className="text-[white] text-[35px] md:text-[45px]  lg:text-[60px] lg:w-[550px] font-bold text-left">
             Unleashing Your Infinite potential through technology.
           </h1>
-          <button className="bg-[#028fcc] text-white  px-[40px] py-[10px] rounded-[20px]">Talk to us</button>
+          <Link href="#contact" className="bg-[#028fcc] text-white  px-[40px] py-[10px] rounded-[20px]">Talk to us</Link>
         </div>
         <div className=""></div>
       </div>

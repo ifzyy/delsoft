@@ -13,7 +13,7 @@ import clientFifteen from "./client-logos/15.jpg"
 import clientSixteen from "./client-logos/changeroom.png"
 const Client = () => {       
   return (
-    <div className="grid lg:grid-cols-4 gap-[30px] p-[30px] lg:p-[70px]">
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[30px] p-[30px] justify-center items-center lg:p-[70px]">
       <Image src={clientOne.src} width={500} height={300}/>
       <Image src={clientTwo.src} width={500} height={300}/>
       <Image src={clientThree.src} width={500} height={300}/>

@@ -37,6 +37,9 @@ html,body{
     padding: 0;
   }
 }
+a{
+  text-decoration: none !important;
+}
 .navbar-collapse {
   flex-grow: 0 !important;
   font-size: 20px;
