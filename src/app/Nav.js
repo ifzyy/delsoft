@@ -1,10 +1,13 @@
 "use client";
 import { useEffect } from "react";
 import { useState } from "react";
-const Nav = () => {
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Link from "next/link";
+const Navigation = () => {
   const [color, setColor] = useState(false);
 
-  
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 50) {
@@ -18,64 +21,39 @@ const Nav = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav
-      className={
-        color
-          ? "flex justify-between  items-center p-[30px] bg-[#252627] sticky"
-          : "flex justify-between p-[30px]  grad-bg"
-      }
-    >
-      <a className="text-[30px] font-bold">Delsoft</a>
-
-      <ul className="md:flex gap-[30px] hidden">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-
-      <div className="menu-wrap">
-        <input type="checkbox" className="toggler" />
-        <div className="hamburger">
-          <div />
+    <div>
+            <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className={color ? "bg-[#252627]" 
+            : ""}>
+                <Container >
+                    <Navbar.Brand href="#home" className="active text-[25px] font-bold">Delsoft</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="bg-[#252627] p-[10px]">
+                            <Nav.Link href="#home"
+                            >Home
+                            </Nav.Link>
+                            <Nav.Link href="#services"
+                            >
+                                Services
+                            </Nav.Link>
+                            <Nav.Link href="#portfolio"
+                            >
+                                Portfolio
+                            </Nav.Link>
+                            <Nav.Link href="#about"
+                            >
+                                About
+                            </Nav.Link>
+                            <Nav.Link href="#contact"
+                            >
+                                Contact
+                            </Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </div>
-        <div className="menu">
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <a href="#">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
   );
 };
 
-export default Nav;
+export default Navigation;

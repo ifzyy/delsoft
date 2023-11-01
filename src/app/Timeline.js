@@ -30,7 +30,13 @@ const Timeline = () => {
         </div>
         <div className="timeline--description">Graphics design</div>
       </li>
-      <i />
+      <li>
+        <div className="timeline--circle--last">
+          {" "}
+          <i />
+        </div>
+        <div className="timeline--description">App development</div>
+      </li>
     </ul>
   );
 };

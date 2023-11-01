@@ -13,7 +13,7 @@ const Main = () => {
   }, []);
   return (
     <div className="lg:pt-[200px] pt-[70px] bg-[#252627]">
-      <div className="md:grid  grid-cols-2 gap-[70px]  px-[30px] lg:p-[40px] lg:px-[150px] flex flex-col-reverse justify-center items-center">
+      <div className="md:grid  grid-cols-2 gap-[70px]  px-[30px] lg:p-[40px] lg:px-[150px] flex flex-col-reverse justify-center items-center" id="about">
         <div className="pt-[40px]" data-aos="fade-left">
           <h2 className="text-white lg:text-[50px] lg:text-left text-[35px] text-center font-bold">
             OUR HISTORY
@@ -42,7 +42,7 @@ const Main = () => {
         </div>
       </div>
 
-      <h2 className="text-[40px] mt-[170px] text-center dash">Services</h2>
+      <h2 className="text-[40px] mt-[170px] text-center dash" id="services">Services</h2>
       <div className=" md:grid grid-cols-2 gap-[30px] lg:px-[150px] p-[20px] lg:p-[50px] flex flex-col items-center">
         <div data-aos="zoom-in" className="flex justify-center w-[100%]">
           <Image
@@ -55,11 +55,11 @@ const Main = () => {
         </div>
       </div>
 
-      <div>
+      <div id="portfolio">
         <h2 className="text-center text-[40px] ">Our Clients</h2>
       </div>
 
-      <div className="pb-[100px]">
+      <div className="pb-[100px]" id="contact">
         <h2 className="text-center text-[40px] dash">Contact Us</h2>
         <Contact />
       </div>
