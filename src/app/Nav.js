@@ -1,15 +1,21 @@
 "use client";
+import { useEffect } from "react";
 import { useState } from "react";
 const Nav = () => {
   const [color, setColor] = useState(false);
-  const changeColor = () => {
-    if (window.scrollY >= 50) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
-  };
-  window.addEventListener("scroll", changeColor);
+
+  
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 50) {
+        setColor(true);
+      } else {
+        setColor(false);
+      }
+    };
+    window.addEventListener("scroll", changeColor);
+  });
+
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav
@@ -68,7 +74,6 @@ const Nav = () => {
           </div>
         </div>
       </div>
-      
     </nav>
   );
 };
