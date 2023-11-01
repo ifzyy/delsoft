@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import heroBackground from "./images/hero.jpg";
 import Timeline from "./Timeline";
 import Contact from "./Contact";
+import Client from "./Client";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -57,6 +58,7 @@ const Main = () => {
 
       <div id="portfolio">
         <h2 className="text-center text-[40px] ">Our Clients</h2>
+        <Client />
       </div>
 
       <div className="pb-[100px]" id="contact">

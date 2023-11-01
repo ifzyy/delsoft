@@ -24,11 +24,11 @@ const Navigation = () => {
     <div>
             <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className={color ? "bg-[#252627]" 
             : ""}>
-                <Container >
-                    <Navbar.Brand href="#home" className="active text-[25px] font-bold">Delsoft</Navbar.Brand>
+                <Container className="flex  justify-between" >
+                    <Navbar.Brand href="#home" className="active text-[30px] font-bold">Delsoft</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="bg-[#252627] p-[10px]">
+                        <Nav className="bg-[#252627] lg:bg-transparent p-[10px]">
                             <Nav.Link href="#home"
                             >Home
                             </Nav.Link>
