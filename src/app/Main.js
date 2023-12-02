@@ -51,7 +51,7 @@ const Main = () => {
             className="rounded-[20px] lg:h-[600px] md:h-[400px] md:w-[500px] w-[80%] flex justify-center"
           />
         </div>
-        <div className="flex justify-start" data-aos="zoom-in">
+        <div className="flex justify-between w-[100%] " data-aos="zoom-in">
           <Timeline />
         </div>
       </div>

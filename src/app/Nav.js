@@ -33,7 +33,7 @@ const Navigation = () => {
       >
         <Container className="flex  justify-between">
           <Navbar.Brand href="#home" className="active text-[30px] font-bold">
-            <Image src={logo.src} width={150} height={100} />
+            <Image src={logo.src} width={100} height={100} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
