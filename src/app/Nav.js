@@ -31,9 +31,9 @@ const Navigation = () => {
         fixed="top"
         className={color ? "bg-[#028fcc]" : ""}
       >
-        <Container className="flex  justify-between">
+    
           <Navbar.Brand href="#home" className="active text-[30px] font-bold">
-            <Image src={logo.src} width={100} height={100} />
+            <Image src={logo.src} width={200} height={100} className="pl-[20px]"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -45,7 +45,7 @@ const Navigation = () => {
               <Nav.Link href="#contact" className="text-white">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
+
       </Navbar>
     </div>
   );

@@ -1,7 +1,7 @@
 import "@/app/timeline.scss";
 const Timeline = () => {
   return (
-    <ul className="timeline timeline-vertical">
+    <ul className="timeline timeline-vertical text-[#252627]">
       <li>
         <div className="timeline--circle">
           {" "}

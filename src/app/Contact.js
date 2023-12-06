@@ -3,7 +3,6 @@ const Contact = () => {
   return (
 <div className="container-form">
   <div className="contact-box">
-    <div className="left" />
     <div className="right">
       <input type="text" className="field" placeholder="Your Name" />
       <input type="text" className="field" placeholder="Your Email" />

@@ -9,24 +9,12 @@
 }
 
 .contact-box{
-	max-width: 850px;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background-color: transparent;
-	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-}
-
-.left{
-	background: url("images/hero.jpg") no-repeat center;
-	background-size: cover;
-	height: 100%;
+	background-image: linear-gradient(to right, #1a1a1a 70%, transparent);
 }
 
 .right{
 	padding: 25px 40px;
+	background: url("images/hero.jpg") no-repeat center;
 }
 
 .dash{

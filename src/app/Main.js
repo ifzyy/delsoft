@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect } from "react";
-import heroBackground from "./images/hero.jpg";
+import heroBackground from "./images/history.jpg";
 import Timeline from "./Timeline";
 import Contact from "./Contact";
 import Client from "./Client";
@@ -13,13 +13,16 @@ const Main = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="lg:pt-[200px] pt-[70px] bg-[#252627]">
-      <div className="md:grid  grid-cols-2 gap-[70px]  px-[30px] lg:p-[40px] lg:px-[150px] flex flex-col-reverse justify-center items-center" id="about">
+    <div className="lg:pt-[200px] pt-[70px] bg-[#fff]">
+      <div
+        className="md:grid  grid-it gap-[70px]  px-[50px] lg:p-[40px] flex flex-col-reverse justify-center items-center"
+        id="about"
+      >
         <div className="pt-[40px]" data-aos="fade-left">
-          <h2 className="text-white lg:text-[50px] lg:text-left text-[35px] text-center font-bold">
+          <h2 className="text-black lg:text-[50px] lg:text-left text-[35px] text-center font-bold">
             OUR HISTORY
           </h2>
-          <p className="text-[#e7e7e7] lg:text-[18px] text-[16px] text-center">
+          <p className="text-[#252627] p-[20px] lg:text-[18px] text-[16px] text-center">
             For the past 20 years Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Temporibus omnis fuga harum nisi nobis libero,
             cumque optio unde corrupti dolorum, a tempore soluta saepe quisquam
@@ -37,18 +40,23 @@ const Main = () => {
         <div className="flex justify-center w-[100%]">
           <Image
             src={heroBackground}
-            className="rounded-[20px] md:h-[400px] lg:h-[600px] md:w-[500px] w-[80%]"
-            data-aos="fade-right"
+            className="rounded-[20px] md:h-[400px] lg:h-[600px] md:w-[800px] w-[160%]"
+            // data-aos="fade-right"
           />
         </div>
       </div>
 
-      <h2 className="text-[40px] mt-[170px] text-center dash" id="services">Services</h2>
-      <div className=" md:grid grid-cols-2 gap-[30px] lg:px-[150px] p-[20px] lg:p-[50px] flex flex-col items-center">
-        <div data-aos="zoom-in" className="flex justify-center w-[100%]">
+      <h2
+        className="text-[40px] mt-[170px] text-black font-bold text-center dash"
+        id="services"
+      >
+        Services
+      </h2>
+      <div className=" md:grid grid-it-2 gap-[30px] lg:px-[50px] p-[20px] lg:p-[50px] flex flex-col items-center">
+        <div data-aos="zoom-in" className="flex w-[100%]">
           <Image
             src={heroBackground}
-            className="rounded-[20px] lg:h-[600px] md:h-[400px] md:w-[500px] w-[80%] flex justify-center"
+            className="rounded-[20px] lg:h-[600px] md:h-[400px] md:w-[700px] w-[80%]"
           />
         </div>
         <div className="flex justify-between w-[100%] " data-aos="zoom-in">
@@ -57,13 +65,15 @@ const Main = () => {
       </div>
 
       <div id="portfolio">
-        <h2 className="text-center text-[40px] dash ">Our Clients</h2>
+        <h2 className="text-center text-[40px] dash text-black font-bold">
+          Our Clients
+        </h2>
         <p className="text-center ">Below are some of our clients</p>
         <Client />
       </div>
 
       <div className="pb-[100px]" id="contact">
-        <h2 className="text-center text-[40px] dash">Contact Us</h2>
+        <h2 className="text-center text-[40px] dash text-black font-bold">Contact Us</h2>
         <Contact />
       </div>
     </div>

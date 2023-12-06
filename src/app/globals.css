@@ -20,8 +20,8 @@ html,body{
     background-image: url("images/hero.jpg");
 
     background-repeat: no-repeat;
-    background-color: #252627;
-    color: white !important;
+    background-color: white;
+    color: black !important;
     margin: 0;
     padding: 0;
   }
@@ -54,7 +54,7 @@ a{
   justify-content: space-between !important;
   transition: 0.3s ease-in;
 }
-.grad-bg {
+/* .grad-bg {
   background-image: linear-gradient(to right, #1a1a1a 70%, transparent);
 }
 
@@ -62,11 +62,17 @@ a{
   background-image: linear-gradient(to right, #1a1a1a , transparent);
   height: 100%;
   width: 100%;
-}
+} */
 footer {
   border: 1px solid rgba(255, 255, 255, 0.636);
 }
 
 li{
   list-style-type:  disc !important ;
+}
+.grid-it{
+  grid-template-columns: 40% 60%;
+}
+.grid-it-2{
+  grid-template-columns: 50% 45%;
 }
