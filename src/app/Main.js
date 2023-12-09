@@ -13,7 +13,7 @@ const Main = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="lg:pt-[200px] pt-[70px] bg-[#fff]">
+    <div className="lg:pt-[50px] pt-[70px] bg-[#fff]">
       <div
         className="md:grid  grid-it gap-[70px]  px-[50px] lg:p-[40px] flex flex-col-reverse justify-center items-center"
         id="about"
