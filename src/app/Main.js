@@ -18,7 +18,7 @@ const Main = () => {
         className="md:grid  grid-it gap-[70px]  px-[50px] lg:p-[40px] flex flex-col-reverse justify-center items-center"
         id="about"
       >
-        <div className="pt-[40px]" data-aos="fade-left">
+        <div className="pt-[]" data-aos="fade-left">
           <h2 className="text-black lg:text-[50px] lg:text-left text-[35px] text-center font-bold">
             OUR HISTORY
           </h2>
