@@ -33,7 +33,7 @@ const Navigation = () => {
       >
     
           <Navbar.Brand href="#home" className="active text-[30px] font-bold">
-            <Image src={logo.src} width={200} height={100} className="pl-[20px]"/>
+            <Image src={logo.src} width={200} height={100} className="pl-[20px]" alt=""/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

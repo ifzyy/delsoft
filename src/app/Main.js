@@ -37,6 +37,7 @@ const Main = () => {
             src={heroBackground}
             className="rounded-[20px] md:h-[400px] lg:h-[600px] md:w-[800px] w-[160%]"
             data-aos="fade-right"
+            alt=""
           />
         </div>
       </div>
@@ -53,6 +54,7 @@ const Main = () => {
           <Image
             src={servicesBackground}
             className="rounded-[20px] lg:h-[600px] md:h-[400px] md:w-[700px] w-[80%]"
+            alt=""
           />
         </div>
         <div className="flex justify-between w-[100%] " data-aos="zoom-in">

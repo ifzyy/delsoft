@@ -14,18 +14,18 @@ import clientSixteen from "./client-logos/changeroom.png"
 const Client = () => {       
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[30px] p-[30px] justify-center items-center lg:p-[70px]">
-      <Image src={clientOne.src} width={500} height={300}/>
-      <Image src={clientTwo.src} width={500} height={300}/>
-      <Image src={clientThree.src} width={500} height={300}/>
-      <Image src={clientFour.src} width={500} height={300}/>
-      <Image src={clientSix.src} width={500} height={300}/>
-      <Image src={clientEight.src} width={500} height={300}/>
-      <Image src={clientNine.src} width={500} height={300}/>
-      <Image src={clientTen.src} width={500} height={300}/>
-      <Image src={clientEleven.src} width={500} height={300}/>
-      <Image src={clientTwelve.src} width={500} height={300}/>
-      <Image src={clientFifteen.src} width={500} height={300}/>
-      <Image src={clientSixteen.src} width={500} height={300}/>
+      <Image src={clientOne.src} width={500} height={300} alt=""/>
+      <Image src={clientTwo.src} width={500} height={300}  alt=""/>
+      <Image src={clientThree.src} width={500} height={300}  alt=""/>
+      <Image src={clientFour.src} width={500} height={300} alt=""/>
+      <Image src={clientSix.src} width={500} height={300} alt=""/>
+      <Image src={clientEight.src} width={500} height={300} alt=""/>
+      <Image src={clientNine.src} width={500} height={300} alt=""/>
+      <Image src={clientTen.src} width={500} height={300} alt=""/>
+      <Image src={clientEleven.src} width={500} height={300} alt=""/>
+      <Image src={clientTwelve.src} width={500} height={300} alt=""/>
+      <Image src={clientFifteen.src} width={500} height={300} alt=""/>
+      <Image src={clientSixteen.src} width={500} height={300} alt=""/>
 
       
     </div>
