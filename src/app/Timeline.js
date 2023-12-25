@@ -53,7 +53,7 @@ const Timeline = () => {
             </li>
             <li className="list disc pt-[15px] lg:text-[20px]">
               {" "}
-              • End to end management of the data life cylcle
+      • End to end management of the data life cylcle
             </li>
             <li className="list disc pt-[15px]  lg:text-[20px]">
               {" "}
@@ -83,7 +83,7 @@ const Timeline = () => {
               {" "}
               • Model training and optimization
             </li>
-            <li className="list disc pt-[15px] lg:ext-[20px]">
+            <li className="list disc pt-[15px] lg:text-[20px]">
               {" "}
               • Machine learning ecosystem
             </li>

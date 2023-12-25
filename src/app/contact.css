@@ -10,7 +10,8 @@
 
 .right{
 	padding: 25px 40px;
-	background: url("images/hero.jpg") no-repeat center;
+	background: url("images/contact.jpg") no-repeat center;
+	background-size: cover;
 }
 
 .dash{

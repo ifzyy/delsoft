@@ -29,7 +29,7 @@ const Navigation = () => {
         expand="lg"
         variant="dark"
         fixed="top"
-        className={color ? "bg-[#028fcc]" : ""}
+        className={color ? "bg-[#028fcc] mb-[50px]" : "mb-[50px]"}
       >
     
           <Navbar.Brand href="#home" className="active text-[30px] font-bold">
