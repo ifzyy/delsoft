@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import heroBackground from "./images/history.jpg";
-import servicesBackground from "./images/services.jpg"
+import servicesBackground from "./images/services.jpg";
 import Timeline from "./Timeline";
 import Contact from "./Contact";
 import Client from "./Client";
