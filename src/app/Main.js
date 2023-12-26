@@ -14,13 +14,13 @@ const Main = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="lg:pt-[50px] pt-[20px] bg-[#fff]" id="about">
-      <div className="md:grid grid-it gap-[70px]  px-[100px] " >
+    <div className="lg:pt-[50px] bg-[#fff]" id="about">
+      <div className="md:grid grid-it gap-[70px]  lg:px-[100px] " >
         <div className="pt-[-20px] " data-aos="fade-left">
           <h2 className="text-black lg:text-[50px] lg:text-left text-[35px] text-center font-bold">
             OUR HISTORY
           </h2>
-          <p className="text-[#252627] p-[20px] lg:text-[18px] text-[16px] text-center">
+          <p className="text-[#252627] lg:p-[20px] lg:text-[18px] text-[15px] text-center p-[20px]">
             For 25 years, Delsoft Limited has been Lagos' tech pioneer, crafting
             software solutions and AI marvels that push boundaries. Imagine, not
             just coding, but breathing life into digital dreams, where
@@ -32,7 +32,7 @@ const Main = () => {
             your technology solutions covered.
           </p>
         </div>
-        <div className="flex justify-center w-[100%]">
+        <div className="flex justify-center w-[100%] p-[20px]">
           <Image
             src={heroBackground}
             className="rounded-[20px] md:h-[400px] lg:h-[600px] md:w-[800px] w-[160%]"
@@ -49,11 +49,11 @@ const Main = () => {
       >
         Services
       </h2>
-      <div className="md:grid grid-it gap-[70px]  px-[100px]">
-        <div data-aos="zoom-in" className=" pt-[50px]">
+      <div className="md:grid grid-it gap-[70px]  lg:px-[100px]">
+        <div data-aos="zoom-in" className=" pt-[50px] px-[20px]">
           <Image
             src={servicesBackground}
-            className="rounded-[20px] lg:h-[600px] md:h-[400px] md:w-[700px] w-[80%]"
+            className="rounded-[20px] lg:h-[600px] md:h-[300px] md:w-[800px] w-[100%]"
             alt=""
           />
         </div>
