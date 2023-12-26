@@ -18,7 +18,7 @@ html,body{
 @media screen and (max-width: 900px) {
   body {
     background-image: url("images/hero.jpg");
-   background-size: 150vh;
+   background-size: 140vh;
     background-repeat: no-repeat;
     background-color: white;
     color: black !important;
